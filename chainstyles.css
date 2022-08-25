@@ -1,0 +1,126 @@
+<style>
+
+*{
+    boxsizing: inherit
+	}
+
+header { display: flex; 
+         }
+
+nav ul {
+     margin: 0;
+	 padding: o;
+	 list-style-type: none;
+	 display: flex;
+	 justify-content: left;
+	 text-transform: uppercase;
+	 }
+
+nav ul li a {
+     display: block;
+	 border: 1px solid;
+	 border-radius: .5em;
+	 padding: .5em 1em;
+	 margin: .5em;
+	 text-decoration: none;
+	 } 
+
+body {
+     font-family: verdana, times new roman;
+	 }
+		 
+h1 { font-weight: bolder;
+     font-size: 5em
+	 }
+h2   {font-size: 2.5em
+      }	 
+		 
+em {color: blue;
+     }		 
+		 
+h2 {
+     text-transform: capitalize;
+     }	 
+
+h3 {
+   text-transform: uppercase;
+    color: #6a5acd;
+    display: block;	
+	border: 1px solid;
+	border-color: #00080;
+	border-radius: 5em;
+	background-color: #f8f8ff;
+	margin: .5em;
+	}
+		 
+footer ul li  {list-style-type: none;
+              color: #fff
+              }		 
+
+footer { background-color: #00ffff;
+         color: #fff;
+         line-height: 2.5em;		 
+          text-decoration: none;}
+		  
+		  
+body{ text-align: center;
+       text-decoration: none; }
+
+#payment-plan ul li{
+     list-style-type: none;
+	 }
+		   
+#payment-plan .standard {
+      display: block;
+	  border: 10px solid;
+	  border-color: #000080;
+	  border-radius: .5em;
+	  padding: 1em 2em;
+	  margin: 3em;
+	  }
+	  
+#payment-plan .business {
+      display: block;
+	  border: 10px solid;
+	  border-color: #000080;
+	  border-radius: .5em;
+	  padding: 1em 2em;
+	  margin: 3em;
+	  }
+
+#payment-plan .premium {
+    display: block;
+	  border: 10px solid;
+	  border-color: #000080;
+	  border-radius: 3em;
+	  padding: 1em 2em;
+	  margin: 3em;
+	  }
+	  
+
+#payment-plan h3 {
+     text-transform: uppercase;
+	 color: #87ceeb;
+	 }
+
+#payment-plan ul li a {
+     text-decoration: line-through;
+	 }
+
+#payment-plan p a {
+     display: block;
+	  border: o.5px solid;
+	  border-color: #0000cd;
+	  border-radius: .5em;
+	  padding: .5em 1em;
+	  margin: .5em;
+	  text-decoration: none;
+	  }
+
+
+
+#footer li a {
+     text-decoration: none;
+	 }
+
+</style>
